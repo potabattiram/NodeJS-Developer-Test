@@ -1,0 +1,21 @@
+{
+  "name": "nodejs_developer_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive --exit"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "csv-writer": "^1.6.0",
+    "csvtojson": "^2.0.10",
+    "express": "^4.17.1",
+    "supertest": "^6.1.6"
+  },
+  "devDependencies": {
+    "mocha": "^9.1.3"
+  }
+}
